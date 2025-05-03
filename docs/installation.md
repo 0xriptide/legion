@@ -27,6 +27,7 @@ brew services start postgresql
 # Install PostgreSQL
 sudo apt update
 sudo apt install postgresql postgresql-contrib
+sudo apt install postgresql-server-dev-all
 
 # Install pgvector
 sudo apt install postgresql-common
